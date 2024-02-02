@@ -1,0 +1,237 @@
+/*global styles start: */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*global styles end! */
+/*class styles start: */
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 11.4%;
+    margin-top: 2.08%;
+}
+
+.nav-skilled {
+    color: #13183F;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 36px;
+    line-height: 45px;
+    font-style: normal;
+}
+
+.button1 {
+    display: flex;
+    width: 167px;
+    height: 56px;
+    margin-left: 75.8%;
+    background-color: #13183F;
+    border-radius: 28px;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 13.6%;
+    width: 457px;
+    height: 359px;
+    margin-left: 11.4%;
+}
+
+.button2 {
+    width: 167px;
+    height: 56px;
+    padding-left: 11.4%;
+    background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+    border-radius: 28px;
+    margin-top: 11.1%;
+}
+
+.courses-container {
+    display: flex;
+    flex-flow: space-between;
+    row-gap: 30px;
+    margin-top: 250px;
+    margin-left: 165px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
+
+.courses-title {
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-size: 28px;
+    line-height: 40px;
+    color: white;
+}
+
+.animation {
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    width: 350px;
+    height: 322px;
+    margin-left: 30px;
+}
+
+.get-started {
+    display: inline-block;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    margin-top: 24px;
+    margin-left: 32px;
+}
+
+.circle-icon {
+    margin-left: 32px;
+    bottom: -2rem;
+    position: absolute;
+    z-index: 20;
+}
+
+
+/*class styles end! */
+/*id styles start: */
+#button1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    letter-spacing: 0px;
+    margin: 14px 28px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#main-title {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+}
+
+#main-text {
+    padding-top: 29px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+}
+
+#button2 {
+    display: inline-block;
+    margin: 14px -18px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#courses-title {
+    padding: 64px 32px 136px 32px;
+}
+
+#animation {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #13183F;
+    margin-left: 32px;
+    margin-top: 64px;
+}
+
+#animation-text {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    margin-top: 24px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+/*id styles end! */
+
+/*hover styles start: */
+.button1:hover {
+    cursor: pointer;
+    background-color: #666CA3;
+}
+
+.button2:hover {
+    cursor: pointer;
+    background: #FFA7C3;
+}
+
+.get-started:hover {
+    color: #FFA7C3;
+}
+/*hover styles end! */
+/*media styles start: */
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url("skilled-elearning-landing-page/starter-code/assets/image-hero-desktop.png");
+        background-repeat: no-repeat;
+        background-position: top -9vh left 60vw;
+    }
+}
+
+@media screen and (width: 768px) {
+    .button1 {
+        margin-left: 60%;
+    }
+
+    body {
+        background-image: url("skilled-elearning-landing-page/starter-code/assets/image-hero-tablet.png");
+        background-repeat: no-repeat;
+        background-position: top -3vh left 50vw;
+    }
+
+    .main-title {
+        margin-left: 3%;
+    }
+
+    .top-nav {
+        margin: 3%;
+    }
+
+
+}
+
+@media screen and (width: 375px) {
+    .button1 {
+        margin-left: 50%;
+        margin-top: 20px;
+    }
+
+    .nav-skilled {
+        margin-top: 20px;
+    }
+}
+/*media styles end! */
